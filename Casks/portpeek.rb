@@ -1,6 +1,6 @@
 cask "portpeek" do
-  version "1.0.2"
-  sha256 "c14e2f6a6e1fff250b881c3251a8285d17496dae573821a1b74eb86d6ba35fcd"
+  version "1.0.8"
+  sha256 "6e47f533892210fafb9070ffd9f7ae726c7fb7968bc684d748de9f091af554e1"
 
   url "https://github.com/DrakeMikels/PortPeek/releases/download/v#{version}/PortPeek.app.zip"
   name "PortPeek"
