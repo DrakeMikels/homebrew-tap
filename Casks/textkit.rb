@@ -1,13 +1,15 @@
 cask "textkit" do
-  version "0.1.2"
-  sha256 "697ea844b55825943717a13040f8e24e6a15fc95d31e3ead501077e033cb77a4"
+  version "0.1.3"
+  sha256 "fae17fe00dd1151cabb9014b1a26c46e973d90151777ba687fec20d59ebbe454"
 
-  url "https://github.com/DrakeMikels/TextKit/releases/download/v0.1.2/TextKit.zip"
+  url "https://github.com/DrakeMikels/TextKit/releases/download/v0.1.3/TextKit.zip"
   name "TextKit"
   desc "Native macOS menu bar utility for local clipboard text transformation"
   homepage "https://github.com/DrakeMikels/TextKit"
 
   depends_on macos: ">= :tahoe"
+
+  auto_updates true
 
   app "TextKit.app"
 
