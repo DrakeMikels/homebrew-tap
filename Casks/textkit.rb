@@ -1,6 +1,6 @@
 cask "textkit" do
   version "0.1.3"
-  sha256 "fae17fe00dd1151cabb9014b1a26c46e973d90151777ba687fec20d59ebbe454"
+  sha256 "4e076e21dd6db60a10461e8741476726e6fc38d104c6933b3b4dd2095e350d8e"
 
   url "https://github.com/DrakeMikels/TextKit/releases/download/v0.1.3/TextKit.zip"
   name "TextKit"
